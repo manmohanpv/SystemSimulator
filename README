@@ -1,8 +1,17 @@
+You can configure this application to run on a any port you want and point your client systems to the IP & Port.
+Respond the client system with the pre-configured xml as response from server.
+You can configure the server to delay the response
+Plus enhancements (TBD)
+
 - Build
+
 step 1
 mvn clean install
+
 step 2
+Go to target folder
 java -classpath all-SystemSimulator-0.0.1-SNAPSHOT.jar com.mveettil.tool.simulator.GenericServer
+
 step 3
 Run Client.java to test the simulator
 
