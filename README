@@ -1,0 +1,16 @@
+- Build
+step 1
+mvn clean install
+step 2
+java -classpath all-SystemSimulator-0.0.1-SNAPSHOT.jar com.mveettil.tool.simulator.GenericServer
+step 3
+Run Client.java to test the simulator
+
+You can change the config.properties to do following:
+
+port - edit the port to run the server on any port
+delay - edit the delay to test any performance & stress test cases (read time out tests)
+response - response property value is the name of the xml file to responded back to server
+
+- License
+The software is licensed using a BSD license.
