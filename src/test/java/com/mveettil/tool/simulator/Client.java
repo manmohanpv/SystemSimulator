@@ -9,7 +9,7 @@ public class Client {
 
     public static void main(String args[]) {
 	try {
-	    Socket socket = new Socket("localhost", 8000);
+	    Socket socket = new Socket("localhost", 8085);
 	    try {
 		DataOutputStream outToServer = new DataOutputStream(
 			socket.getOutputStream());
