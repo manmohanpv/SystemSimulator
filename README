@@ -16,7 +16,7 @@ mvn clean install
 
 step 2
 Go to target folder
-java -classpath all-SystemSimulator-0.0.1-SNAPSHOT.jar com.mveettil.tool.simulator.GenericServer
+java -classpath all-SystemSimulator-0.0.1-SNAPSHOT.jar com.mveettil.tool.simulator.SimpleHttpServer
 
 step 3
 Run Client.java to test the simulator
